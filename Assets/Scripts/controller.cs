@@ -27,13 +27,13 @@ public class controller : MonoBehaviour
         {
             speed = 20f;
         }
-        if (Input.GetKeyDown("d"))
+        if (Input.GetKey("d"))
         {
-            transform.Rotate(0, 30, 0);
+            transform.Rotate(0, 1, 0);
         }
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKey("a"))
         {
-            transform.Rotate(0,-30, 0);
+            transform.Rotate(0,-1, 0);
         }
     }
 }
