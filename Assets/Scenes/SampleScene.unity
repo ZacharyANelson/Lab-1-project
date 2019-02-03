@@ -257,6 +257,7 @@ GameObject:
   - component: {fileID: 66929736}
   - component: {fileID: 66929735}
   - component: {fileID: 66929734}
+  - component: {fileID: 66929738}
   m_Layer: 0
   m_Name: Finish
   m_TagString: Untagged
@@ -336,6 +337,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -10.895, z: 0}
+--- !u!54 &66929738
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66929733}
+  serializedVersion: 2
+  m_Mass: 50000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &67863640 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5e7e4a46119ad774b91921b4751121ce,
@@ -540,6 +557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street1Lane30m
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 78613a3680295b4419a1b2326caf113c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 78613a3680295b4419a1b2326caf113c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.917072
@@ -705,6 +726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 550643657}
+  - component: {fileID: 550643658}
   m_Layer: 0
   m_Name: street
   m_TagString: Untagged
@@ -741,6 +763,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &550643658
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550643656}
+  serializedVersion: 2
+  m_Mass: 50000
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!4 &555304403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 78613a3680295b4419a1b2326caf113c,
@@ -757,6 +795,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
       propertyPath: m_Name
       value: Street1Lane50m
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -826,6 +868,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3b823826c4320794ab675611336a3f85, type: 3}
       propertyPath: m_Name
       value: Street1LaneTurn60Deg
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3b823826c4320794ab675611336a3f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3b823826c4320794ab675611336a3f85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1114,6 +1160,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street1LaneTurn90Deg (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7e92c2f1802b28d49b5201eb62230746, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e92c2f1802b28d49b5201eb62230746, type: 3}
       propertyPath: m_LocalPosition.x
       value: 312.12256
@@ -1385,6 +1435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street1Lane40m
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 296a69cc6c3331248a118e9dc19ced56, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 296a69cc6c3331248a118e9dc19ced56, type: 3}
       propertyPath: m_LocalPosition.x
       value: 154.92203
@@ -1553,6 +1607,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
       propertyPath: m_Name
       value: Street1Lane50m (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1743,6 +1801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street1Lane70m
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 68292a1b590c07144825249b0f4db46b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 68292a1b590c07144825249b0f4db46b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 265.42255
@@ -1803,6 +1865,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
       propertyPath: m_Name
       value: Street1Lane50m (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e7e4a46119ad774b91921b4751121ce, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1873,6 +1939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street1LaneTurn60Deg (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3b823826c4320794ab675611336a3f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3b823826c4320794ab675611336a3f85, type: 3}
       propertyPath: m_LocalPosition.x
       value: 228.62256
@@ -1935,6 +2005,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 7e92c2f1802b28d49b5201eb62230746, type: 3}
       propertyPath: m_Name
       value: Street1LaneTurn90Deg
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7e92c2f1802b28d49b5201eb62230746, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7e92c2f1802b28d49b5201eb62230746, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2108,6 +2182,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 7691e177246be4f468d15ba2d2b84bd9, type: 3}
       propertyPath: m_Name
       value: Street1Lane60m
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7691e177246be4f468d15ba2d2b84bd9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7691e177246be4f468d15ba2d2b84bd9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2291,6 +2369,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 7691e177246be4f468d15ba2d2b84bd9, type: 3}
       propertyPath: m_Name
       value: Street1Lane60m (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7691e177246be4f468d15ba2d2b84bd9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7691e177246be4f468d15ba2d2b84bd9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2728,6 +2810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Street1LaneTurn60Deg (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3b823826c4320794ab675611336a3f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3b823826c4320794ab675611336a3f85, type: 3}
       propertyPath: m_LocalPosition.x
       value: 150.82254
@@ -2794,6 +2880,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 573be20e5c8586d43b9e1cdd7ed0caee, type: 3}
       propertyPath: m_Name
       value: Street1LaneTurn45Deg
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 573be20e5c8586d43b9e1cdd7ed0caee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 573be20e5c8586d43b9e1cdd7ed0caee, type: 3}
       propertyPath: m_LocalPosition.x
