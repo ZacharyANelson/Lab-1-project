@@ -10,6 +10,7 @@ public class controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
         speed = 20f;
         start = false;
     }
@@ -18,9 +19,21 @@ public class controller : MonoBehaviour
     void Update()
     {
         transform.Translate((speed * Input.GetAxis("Horizontal") * Time.deltaTime), 0f, (speed * Input.GetAxis("Vertical") * Time.deltaTime));
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(1))
         {
-            rbCap.AddForce(0, 40, 0);
+            speed=50f;
+        }
+        if (Input.GetMouseButtonUp(1))
+        {
+            speed = 20f;
+        }
+        if (Input.GetKeyDown("d"))
+        {
+            transform.Rotate(0, 30, 0);
+        }
+        if (Input.GetKeyDown("a"))
+        {
+            transform.Rotate(0,-30, 0);
         }
     }
 }
