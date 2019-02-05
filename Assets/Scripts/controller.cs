@@ -7,12 +7,21 @@ public class controller : MonoBehaviour
     private float speed;
     public Rigidbody rbCap;
     private bool start;
+    public Transform car;
     // Start is called before the first frame update
     void Start()
     {
        
         speed = 20f;
         start = false;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.name == "Finish")
+        {
+            transform.position = new Vector3(50.38f, 16.59f, 203.05f);
+        }
     }
 
     // Update is called once per frame
